@@ -14,7 +14,7 @@ Este projeto é apenas um exemplo para testar meus conhecimentos em **ReactJS** 
     <img src="./gameplay.gif" alt="gameplay">
     <br>
     <h6>
-        Figure 1 - exemplo de game play.
+        Figure 1 - exemplo de gameplay.
     </h6>  
 </div>
 
