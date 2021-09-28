@@ -19,14 +19,24 @@ Este projeto é apenas um exemplo para testar meus conhecimentos em **ReactJS** 
 </div>
 
 # <a name=index>Indice📚</a>
-- [**Controles**](#controles)
+- [**Como jogar**](#como_jogar)
 - [**Técnologias utilizadas no projeto**](#tecnologias)
 - [**Como executar?**](#run)
 - [**Dependências**](#dependencies)
 - [**Versão**](#version)
 - [**Licença**](#license)
 
-# **<a name=controles>🕹️ Controles 🕹️</a>** <h6>[voltar ao indice](#index)</h6>
+# **<a name=como_jogar>🕹️ Como jogar 🕹️</a>** <h6>[voltar ao indice](#index)</h6>
+
+<div align="center">
+    <img src="./example_1.png" alt="example-1" width="500" height="550">
+    <br>
+    <h6>
+        Figure 1 - um exemplo padrão no jogo.
+    </h6>  
+</div>
+
+O objetivo do jogo é conseguir revelar todos os quadrados e não pisar em uma bomba. Para marcar as posições que se tem certeza que existe uma bomba em um quadrado pode-se usar as bandeiras enquanto estiverem disponiveis ja que são limitadas. O jogo termina em game over caso pise em uma mina ou ao final fique uma bandeira em um quadrado sem bomba. 
 
 Os controles são simples, usa-se apenas o mouse para jogar:
 
