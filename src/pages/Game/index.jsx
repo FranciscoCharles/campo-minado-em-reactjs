@@ -29,7 +29,7 @@ export default function Game() {
 	const maxFlags = parseInt(n_bombs * percentFlags);
 
 	const [game_state, setGameState] = useState({
-		minefield: new Minefield(10, 10, n_bombs),
+		minefield: new Minefield(15, 15, n_bombs),
 		isFirstClick: true,
 		gameOver: false,
 		isWinner: false,

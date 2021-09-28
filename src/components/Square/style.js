@@ -33,8 +33,8 @@ export const ColorfulDiv = styled.div`
 	align-items: center;
 	justify-content: center;
 
-	height: 5rem;
-	width: 5rem;
+	height: 3.5rem;
+	width: 3.5rem;
 	border: 2px solid black;
 	-webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: black;
@@ -43,7 +43,7 @@ export const ColorfulDiv = styled.div`
 	background-color: ${props => selectCorrectBackgroundColor(props)};
 	${props => displayCorrectImage(props)};
 	background-size: 100% 100%;
-	font-size: 3.2rem;
+	font-size: 3rem;
 	font-weight: bold;
 	font-family: Arial, Helvetica, sans-serif;
 `;

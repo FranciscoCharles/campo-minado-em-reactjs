@@ -8,7 +8,7 @@ export const Container = styled.div`
 	align-items: center;
 	justify-content: center;
 	justify-content: space-around;
-	width: 50rem;
+	width: 52.5rem;
 	border: 2px solid black;
 	.countFlags{
 		font-size: 4rem;
