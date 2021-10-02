@@ -47,6 +47,6 @@ export const ColorfulDiv = styled.div`
 	font-weight: bold;
 	font-family: Arial, Helvetica, sans-serif;
 `;
-export const ColumnDiv = styled.div`
+export const RowDiv = styled.div`
 	display: flex;
 `;
