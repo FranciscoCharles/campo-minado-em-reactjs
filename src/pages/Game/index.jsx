@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Minefield, generateNumberOfBombs } from '../../scripts/minefield';
 import { ImageFlag, Container, ContainerGame } from './style';
-import { ColumnOfSquares } from '../../components/Square';
+import { RowOfSquares } from '../../components/Square';
 import flag_image from '../../asserts/flag.png';
 
 function MenuGame(props) {
@@ -57,7 +57,7 @@ export default function Game() {
 			<div>
 				{
 					game_state.minefield.field.map((columns, index) =>
-						<ColumnOfSquares key={index} columns={columns}{...{ game_state, setGameState }} />)
+						<RowOfSquares key={index} columns={columns} {...{ game_state, setGameState }} />)
 				}
 			</div>
 		</ContainerGame>);
